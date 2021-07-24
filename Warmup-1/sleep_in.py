@@ -21,9 +21,9 @@ def sleep_in_v2(weekday, vacation):
 # Remember that the order of the booleans operators is the following: (not, and, or).
 # As an example: if passed Arguments were sleep_in(True, True):
 
-# The boolean expression (not weekday or vacation) will be evaluated in this order:
-#                               False or True
-#                                    True
+# The boolean expression will be evaluated in this order: not True or True
+#                                                           False or True
+#                                                                True
 
 
 
